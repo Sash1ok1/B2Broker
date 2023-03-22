@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "scripts": {
+    "dev:srv": "node server.js",
+    "dev:cli": "node client.js"
+  },
+  "name": "b2broker",
+  "version": "0.0.1",
+  "description": "Test project 4 B2Broker",
+  "main": "server.ls",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sash1ok1/B2Broker.git"
+  },
+  "author": "Aleksandr Melnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sash1ok1/B2Broker/issues"
+  },
+  "homepage": "https://github.com/Sash1ok1/B2Broker#readme"
+}
