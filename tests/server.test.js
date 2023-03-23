@@ -90,7 +90,6 @@ describe('Websocket server', () => {
 
         ws.send(JSON.stringify({ type: WsType.Unsubscribed }));
         await new Promise((r) => setTimeout(r, 9000));
-        console.log({ resp });
         expect(resp[WsType.Unsubscribed]).toEqual({
             type: WsType.Unsubscribed,
             status: 'Unsubscribed',
@@ -107,7 +106,6 @@ describe('Websocket server', () => {
                 parsedMess = { type: 'catched' };
             }
             resp[parsedMess.type] = parsedMess;
-            console.log({ resp });
             expect(resp[WsType.Error]).toEqual({
                 type: WsType.Error,
                 error: 'Requested method not implemented',
