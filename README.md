@@ -20,3 +20,8 @@ client
 ```bash
 npm run dev:cli
 ```
+
+run tests
+```bash
+npm run test
+```
