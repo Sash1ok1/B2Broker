@@ -40,6 +40,8 @@ wss.on('connection', (ws) => {
         }
     });
     setInterval(() => ws.send(buildMessage(WsType.Heatbeat)), 1000);
+
+    ws.on('error', console.error);
 });
 
 server.listen(8080, () => {

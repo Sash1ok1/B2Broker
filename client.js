@@ -25,3 +25,5 @@ ws.on('message', (message) => {
 
     console.log(`Received message: ${JSON.stringify(data)}`);
 });
+
+ws.on('error', console.error);
