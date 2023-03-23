@@ -5,7 +5,7 @@
   "scripts": {
     "dev:srv": "node server.js",
     "dev:cli": "node client.js",
-    "test": "jest"
+    "test": "jest -i"
   },
   "name": "b2broker",
   "version": "0.0.1",
