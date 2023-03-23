@@ -4,13 +4,16 @@
   },
   "scripts": {
     "dev:srv": "node server.js",
-    "dev:cli": "node client.js"
+    "dev:cli": "node client.js",
+    "test": "jest"
   },
   "name": "b2broker",
   "version": "0.0.1",
   "description": "Test project 4 B2Broker",
   "main": "server.ls",
-  "devDependencies": {},
+  "devDependencies": {
+    "jest": "^29.5.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sash1ok1/B2Broker.git"
